@@ -1,17 +1,16 @@
-## My Project
+# TODOs:
 
-TODO: Fill this README out!
+- Check Pipe mode for input
 
-Be sure to:
+# Resources: 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+- [Using Scikit-learn with the SageMaker Python SDK](https://sagemaker.readthedocs.io/en/v1.72.1/frameworks/sklearn/using_sklearn.html)
+- [Develop, Train, Optimize and Deploy Scikit-Learn Random Forest](https://sagemaker-examples.readthedocs.io/en/latest/sagemaker-python-sdk/scikit_learn_randomforest/Sklearn_on_SageMaker_end2end.html)
+- [Amazon SageMaker Automatic Model Tuning now supports three new completion criteria for hyperparameter optimization](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-automatic-model-tuning-now-supports-three-new-completion-criteria-for-hyperparameter-optimization/)
+- [Best Practices for Hyperparameter Tuning](https://docs.amazonaws.cn/en_us/sagemaker/latest/dg/automatic-model-tuning-considerations.html)
 
-## Security
+# Follow-up:
+- `TuningJobCompletionCriteriaConfig` is not in the online documentation Python SDK
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+# BUGs:
+- https://github.com/aws/sagemaker-python-sdk/issues/3743 & https://github.com/aws/sagemaker-python-sdk/pull/3744
